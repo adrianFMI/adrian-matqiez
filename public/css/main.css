@@ -39,3 +39,13 @@
 img {
   max-height: 800px;
 }
+.carouselSize {
+padding: 0px 40px;
+background-color: grey;
+}
+.conContainer{
+  margin-top: 70px;
+}
+.bottonPosition{
+  margin-bottom: 10px;
+}

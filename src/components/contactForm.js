@@ -46,7 +46,7 @@ class ContactForm extends Component {
          <label htmlFor="messageInput">Message:</label>
          <textarea className="form-control" name="message" id="messageInput" onChange={handleChange} rows="5" value={message} placeholder="Write message here..."></textarea>
        </div>
-        <button  className="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+        <button  className="btn btn-primary btn-lg btn-block bottonPosition" type="submit">Submit</button>
        </form>
      </div>
    )

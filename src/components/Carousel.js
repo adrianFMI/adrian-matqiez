@@ -1,6 +1,6 @@
 import React from 'react';
 const Carousel = () => (
-  <div className="bd-example">
+  <div className="bd-example carouselSize">
   <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
   <ol className="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
@@ -9,21 +9,21 @@ const Carousel = () => (
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="../images/dogPlay.jpg" className="d-block w-100" alt="..."/>
+      <img src="../images/pic3.jpg" className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="../images/dogWatch.jpg" className="d-block w-100" alt="..."/>
+      <img src="../images/pic1.jpg" className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="../images/armydog.jpg" className="d-block w-100" alt="..."/>
+      <img src="../images/pic2.jpg" className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>

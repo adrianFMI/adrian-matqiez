@@ -2,7 +2,7 @@ import React from 'react';
 import ContactForm from './contactForm'
 
 const Contact = () => (
-  <div>
+  <div className="conContainer"> 
   <h1>Contact</h1>
   <ContactForm/>
   </div>
