@@ -31,8 +31,8 @@ const Carousel = () => (
       <div className="carousel-caption d-none d-md-block">
         <h5>First Practices</h5>
         <p><a href="../HTML_intro/divandSpan.html" target="_blank">Basic Web page </a>
-        <a href="../HTML_intro/registrationForm.html" target="_blank"> Form Practice</a>
-        <a href="../HTML_intro/index.html" target="_blank"> firebase</a>
+        <a href="../html_intro/registrationForm.html" target="_blank"> Form Practice</a>
+        <a href="../html_intro/index.html" target="_blank"> firebase</a>
         </p>
       </div>
     </div>
