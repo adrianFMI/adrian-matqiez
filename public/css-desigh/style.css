@@ -1,0 +1,40 @@
+body {
+  background-color: #a6a6a6;
+}
+#wrapper {
+
+}
+#header {
+  background-color: green;
+  height: 200px;
+  margin-bottom: 10px;
+}
+#navigation {
+background-color: blue;
+height: 400px;
+width: 19%;
+float: left;
+margin-right: 13px;
+}
+#main_content {
+background-color: red;
+height: 600px;
+width: 80%;
+display: inline-block;
+float: left;
+margin-bottom: 20px;
+}
+.subcontents {
+background-color: yellow;
+height: 340px;
+width: 340px;
+margin: 10px;
+float: left;
+}
+#advertisement {
+background-color: purple;
+height: 175px;
+width: 1060px;
+float: left;
+margin: 10px;
+}

@@ -6,29 +6,47 @@ const Carousel = () => (
     <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
   </ol>
   <div className="carousel-inner">
+
     <div className="carousel-item active">
-      <img src="../images/pic3.jpg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <img src="../images/friendlychat.png" className="d-block w-100" alt="..."/>
+      <div className="carousel-caption d-none d-md-block black">
+        <h5>Friendly-chat-firebase</h5>
+        <p><a href="https://friendlychat-e2c60.firebaseapp.com/" target="_blank">Click here</a></p>
       </div>
     </div>
+
     <div className="carousel-item">
-      <img src="../images/pic1.jpg" className="d-block w-100" alt="..."/>
+      <img src="../images/drumkit.png" className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h5>Drum kit JavaScript</h5>
+        <p><a href="../JavaScript30/01-JavaScriptDrumKit/index-START.html" target="_blank">Click here</a></p>
       </div>
     </div>
+
     <div className="carousel-item">
-      <img src="../images/pic2.jpg" className="d-block w-100" alt="..."/>
+      <img src="../images/introhtml.png" className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h5>First Practices</h5>
+        <p><a href="../HTML_intro/divandSpan.html" target="_blank">Basic Web page </a>
+        <a href="../HTML_intro/registrationForm.html" target="_blank"> Form Practice</a>
+        <a href="../HTML_intro/index.html" target="_blank"> firebase</a>
+        </p>
       </div>
     </div>
+
+    <div className="carousel-item">
+      <img src="../images/gridDesign.png" className="d-block w-100" alt="..."/>
+      <div className="carousel-caption d-none d-md-block">
+        <h5>CSS grid design</h5>
+        <p><a href="../css-desigh/index.html" target="_blank">Grid design </a>
+        <a href="../css-desigh/shapes.html" target="_blank"> Shapes</a>
+        </p>
+      </div>
+    </div>
+
   </div>
   <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>

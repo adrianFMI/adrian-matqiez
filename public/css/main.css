@@ -1,10 +1,10 @@
 #background-one {
   height: 100vh;
-  background-repeat: no-repeat;
-  background-image: url("../images/people.jpg");
+  /*background-repeat: no-repeat;
+  background-image: url("../images/background1.jpg");
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover;*/
 }
 #background-two {
   height: 100vh;
@@ -25,6 +25,7 @@
 .expand {
   max-width: 100%;
   padding: 0px;
+  margin-top: 62px;
 }
 .bg-light {
     background-color: #6aa2fc!important;
@@ -40,7 +41,7 @@ img {
   max-height: 800px;
 }
 .carouselSize {
-padding: 0px 40px;
+padding: 0px 5px;
 background-color: grey;
 }
 .conContainer{
@@ -48,4 +49,72 @@ background-color: grey;
 }
 .bottonPosition{
   margin-bottom: 10px;
+}
+.aboutcontainer {
+  margin-top: 70px;
+}
+.socialIcon {
+  font-size: 50px;
+}
+.gitIcon {
+  color: black;
+}
+#background-one {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.centerText {
+  font-family: 'Open Sans';
+font-weight: 600;
+font-size: 120px;
+text-align: center;
+position: absolute;
+top: 45%;
+right: 0;
+left: 0;
+}
+.black {
+  color: black;
 }
