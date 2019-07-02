@@ -9,7 +9,7 @@
 #background-two {
   height: 100vh;
   /* background-repeat: no-repeat;
-  background-image: url("../images/visitors.jpg"); 
+  background-image: url("../images/visitors.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover; */
@@ -17,7 +17,7 @@
 #background-three {
   height: 100vh;
   background-repeat: no-repeat;
-  background-image: url("../images/wall.jpg");
+  background-image: url("https://media.giphy.com/media/l0K4lUxBzIOeJd1EA/giphy.gif");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -174,4 +174,29 @@ h1 {
   100% {
     transform:translateX(25%);
   }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.title {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 1px;
+}
+
+.fontEffect {
+	background-image: url(https://media.giphy.com/media/3oEduUTHEkaiFTup7a/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
 }
