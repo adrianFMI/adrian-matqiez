@@ -11,7 +11,7 @@ const Carousel = () => (
   <div className="carousel-inner">
 
     <div className="carousel-item active">
-      <img src="../images/friendlychat.png" className="d-block w-100" alt="..."/>
+      <img src="../images/friendlyChat.png" className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block black">
         <h5>Friendly-chat-firebase</h5>
         <p><a href="https://friendlychat-e2c60.firebaseapp.com/" target="_blank">Click here</a></p>
